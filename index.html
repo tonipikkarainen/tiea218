@@ -25,15 +25,53 @@
 </div>-->
 </header>
 <div class="content">
-<h1>TIEA218 (Web-sovellukset) -kurssin oppimistehtäviä</h1>
+<h1>TIEA218 (Web-sovellukset) -kurssin viikkotehtäviä</h1>
+<h4>Tekijä: Toni Pikkarainen</h4>
 <div class="tiedot">
-<p>Oppimistehtävissä tehdään tehtäviä eri oppiaineisiin siten, että
-tehtävään integroidaan aina joku tietotekniikan osa-alue. Tehtäviin toteutetaan
-suunnitelma, tavoitteet, ohjeistus ja mallivastaus.
-</p>
-<p>Toni Pikkarainen</p>
+
 <a
 href="mailto:toni.t.pikkarainen@student.jyu.fi">toni.t.pikkarainen@student.jyu.fi</a>
+
+<h2>Viikkotehtävä 1: HTML5 ja CSS3</h2>
+<p>Tehtävänä oli toteuttaa ulkoasultaan ao. kuvan mukainen web-sivu. Linkkien
+ei tarvinnut toimia eikä muutakaan toiminnallisuutta tarvinnut toteuttaa. Lähinnä
+huomio kohdistettiin asemointiin, oikeisiin väreihin ja fontteihin. Sivu on myös
+responsiivinen eli selainikkunan leveyden mennessä tarpeeksi pieneksi, vasen navigointipalkki
+siirretään sivun alaosaan.</p>
+<img class="kuva" src="taso5_2016.png">
+<a href="https://tonipikkarainen.github.io/TIEA218VT1/">TOTEUTUS</a>
+
+<h2>Viikkotehtävä 2: Javascript ja DOM</h2>
+<p>Tehtävänä oli toteuttaa javascriptillä <a href="https://fi.wikipedia.org/wiki/Halma">Halma-peli.</a>
+Toteutuksessa ei saanut käyttää mitään ulkoisia kirjastoja (esim. jQuery, AngularJS...) eikä myöskään
+kutsua mitään palvelimelle tehtyjä sovelluksia. Myöskään annettua yksinkertaista HTML-pohjaa ei
+saanut muokata vain kaikki muutokset piti tehdä manipuloimalla DOM:ia javascriptillä.
+</p>
+<p><a href="https://tonipikkarainen.github.io/TIEA218VT2/">TOTEUTUS</a></p>
+<h2>Viikkotehtävä 3: Python ja CGI-ohjelmointi</h2>
+<p> Tehtävänä oli toteuttaa python-kielellä CGI (Common Gateway Interface, rajapinta, jonka avulla
+selain ja palvelimella oleva ohjelma kommunikoivat) -ohjelma, joka luo viikkotehtävä 2:n mukaisen
+ruudukon. Pelin logiikkaa ei tarvinnut toteuttaa, riitti, että nappuloita voi siirrellä
+ruudusta toiseen. Nappulat sai myös sijoittaa ruudukon vasempaan ja oikeaan reunaan.</p>
+<p>Tehtävässä oli tarkoituksena ymmärtää HTTP-protokollan tilattomuus ja kiertää tätä 
+sopivilla keinoilla. Tiedostoon ei saanut tallentaa mitään, eikä käyttää evästeitä ja
+sessioita.</p>
+<p>Web-sivun tila pidetään toteutuksessa yllä piilokenttien avulla ja viemällä 
+ohjelmaa uudestaan kutsuvissa linkeissä ohjelmalle sopivia parametreja.</p>
+<p><a href="http://users.jyu.fi/~totapikk/cgi-bin/vt3.cgi">TOTEUTUS</a></p>
+
+<h2>Viikkotehtävä 4: Flask, sessiot ja tietokannat</h2>
+<p>Tehtävänä oli toteuttaa videovuokraamon käyttöliittymä python-kielisenä
+flask-sovelluksena. Tietojen tallentamiseen käytetään palvelimella
+olevaa SQLite3-tietokantaa. Nyt sovelluksessa sai käyttää myös sessioita.</p>
+<p>Käyttöliittymässä voi tällä hetkellä lisätä vuokrauksia, lisätä elokuvia,
+poistaa elokuvia ja muokata elokuvia. Lisäksi elokuvia voi listata näkymään
+eri ominaisuuksien perusteella järjestettynä (arvio, hinta, julkaisuvuosi, vuokrausmäärä).</p>
+<p>Kirjautuminen:</p>
+<p>käyttäjätunnus: tiea218@foobar.example</p>
+<p>salasana: tiea218</p>
+<p><a href="http://users.jyu.fi/~totapikk/cgi-bin/vt4/flask.cgi/kirjaudu">TOTEUTUS</a></p>
+
 </div>
 </div>
 
