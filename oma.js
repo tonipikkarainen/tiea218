@@ -6,13 +6,22 @@ window.onload=function(){
 	
 	var kotiLi = document.createElement("li");
 	var kotiA = document.createElement("a");
-	kotiA.setAttribute("href","index.html");
+	kotiA.setAttribute("href","/index.html");
 	kotiLi.appendChild(kotiA);
 	
 	lista.appendChild(kotiLi);
 	//kotiA.setAttribute("value","Koti");
 	kotiA.textContent = "Koti";
-	for(var i=0 ; i<9 ; i++){
+    
+    var listaWeb=document.createElement("li");
+    var listaWebA = document.createElement("a");
+    listaWebA.setAttribute("href","/websovellukset/websovellukset.html");
+    listaWebA.textContent="Websovellukset";
+    listaWeb.appendChild(listaWebA);
+    
+    
+    
+    /*for(var i=0 ; i<9 ; i++){
 		var luku = i+1;
 		var listaLi = document.createElement("li");
 		var listaA = document.createElement("a");
@@ -22,5 +31,5 @@ window.onload=function(){
 		lista.appendChild(listaLi);
 		//listaA.setAttribute("value","Tehtävä "+luku);
 		listaA.textContent="Tehtävä "+luku;
-	}
+	}*/
 }
